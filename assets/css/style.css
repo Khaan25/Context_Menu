@@ -1,0 +1,65 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+  --header-height: 3rem;
+
+  /*========== COLORS ==========*/
+  --text-color: #3A3C42;
+  --text-color-light: #898C94;
+  --container-color: #D0D6DF;
+  --container-color-offset: #f1f3f7;
+  --white-color: white;
+  --orange-color: #DC9960;
+  --green-color: #1EB8B1;
+  --purple-color: #657CC4;
+  --black-color: black;
+  --red-color: #D92027;
+
+  /*========== FONT ==========*/
+  --body-font: 'Inter', sans-serif;
+
+  /*========== MARGINS ==========*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.25rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+}
+
+/*==================== BASE ====================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--container-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+/*==================== LAYOUT ====================*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+}
+
+/*==================== CONTEXT MENU ====================*/
+/* -------------------- CONTEXT MENU ACTIVE -------------------- */
+/*==================== CONTEXT MENU LIST ====================*/
+/*==================== CONTEXT MENU BUTTONS ====================*/
