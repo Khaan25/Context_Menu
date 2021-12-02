@@ -6,4 +6,4 @@ Beautiful one-entry project with custom context menu with animation using HTML C
 
 Join the channel to see more videos like this. [ZiaCodes](https://www.youtube.com/c/ZiaCodes)
 
-![preview img](/preview.png)
+![preview img](/Context_Menu_Thumbnail.png)
